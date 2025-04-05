@@ -12,6 +12,21 @@
     box-sizing: border-box;
 }
 
+::selection{
+    background-color: #62AB00;
+    color: white;
+}
+
+::-webkit-scrollbar{
+    width: 12px;
+    background-color: #F0F0F0;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #62AB00;
+    border-radius: 15px;
+}
+
 body {
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
@@ -25202,14 +25217,6 @@ input[type=number] {
 
 .main-mobile-menu .menu-item-has-children {
     position: relative;
-}
-
-.main-mobile-menu .menu-expand {
-    position: absolute;
-    display: block;
-    right: 0;
-    margin-right: 50px;
-    font-size: 12px;
 }
 
 /*>>>>>>>> Hero Area <<<<<<<<<*/
