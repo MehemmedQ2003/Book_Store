@@ -29754,9 +29754,9 @@ textarea.form-control {
 
 .checkout-form .nice-select {
     width: 100%;
-    background-color: #f4f4f4;
-    border: 1px solid transparent;
-    border-radius: 0;
+    background-color:#f9fff4;
+    border:2px solid #62AB00;
+    border-radius: 8px;
     line-height: 23px;
     padding: 10px 20px;
     font-size: 14px;
@@ -29770,11 +29770,11 @@ textarea.form-control {
     height: 6px;
     border-width: 1px;
     right: 20px;
-    border-color: #565f69;
+    border-color: #62AB00;
 }
 
 .checkout-form .nice-select .current {
-    color: #565f69;
+    color: #62AB00;
     display: block;
     line-height: 23px;
 }

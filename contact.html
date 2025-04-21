@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="zxx">
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +10,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
     <link rel="shortcut icon" type="image/x-icon" href="image/favicon.ico">
 </head>
+
 <body>
     <div class="site-wrapper" id="top">
         <div class="site-header header-2 mb--20 d-none d-lg-block">
@@ -174,8 +176,7 @@
                                     <a href="shops.html">Shop</a>
                                 </li>
                                 <li class="menu-item has-children">
-                                    <a href="#">Pages <i
-                                            class="fas fa-chevron-down dropdown-arrow"></i></a>
+                                    <a href="#">Pages <i class="fas fa-chevron-down dropdown-arrow"></i></a>
                                     <ul class="sub-menu">
                                         <li><a href="cart.html">Cart</a></li>
                                         <li><a href="checkout.html">Checkout</a></li>
@@ -317,38 +318,49 @@
                     <div class="col-lg-7 col-md-7 col-12 mt--30 mt-md--0">
                         <div class="contact_form">
                             <h3 class="ct_title">Send Us a Message</h3>
-                            <form id="contact-form" action="https://htmldemo.net/pustok/pustok/php/mail.php" method="post" class="contact-form">
+                            <form id="contact-form" action="https://htmldemo.net/pustok/pustok/php/mail.php"
+                                method="post" class="contact-form">
                                 <div class="row">
                                     <div class="col-lg-12">
                                         <div class="form-group">
                                             <label>Your Name <span class="required">*</span></label>
-                                            <input type="text" id="con_name" name="con_name" class="form-control"
-                                                required>
+                                            <input class="mb-0 form-control" type="text" id="con_name" name="con_name"
+                                                style="border: 2px solid #62AB00; border-radius: 8px; padding: 10px 15px; font-size: 13px; color: #333; background-color: #f9fff4; outline: none; transition: all 0.3s ease;"
+                                                onfocus="this.style.boxShadow='0 0 8px #62AB00'"
+                                                onblur="this.style.boxShadow='none'" required>
                                         </div>
                                     </div>
                                     <div class="col-lg-12">
                                         <div class="form-group">
                                             <label>Your Email <span class="required">*</span></label>
-                                            <input type="email" id="con_email" name="con_email" class="form-control"
-                                                required>
+                                            <input class="mb-0 form-control" type="email" id="con_email"
+                                                name="con_email"
+                                                style="border: 2px solid #62AB00; border-radius: 8px; padding: 10px 15px; font-size: 13px; color: #333; background-color: #f9fff4; outline: none; transition: all 0.3s ease;"
+                                                onfocus="this.style.boxShadow='0 0 8px #62AB00'"
+                                                onblur="this.style.boxShadow='none'" required>
                                         </div>
                                     </div>
                                     <div class="col-lg-12">
                                         <div class="form-group">
                                             <label>Your Phone*</label>
-                                            <input type="text" id="con_phone" name="con_phone" class="form-control">
+                                            <input class="mb-0 form-control" type="text" id="con_phone" name="con_phone"
+                                                style="border: 2px solid #62AB00; border-radius: 8px; padding: 10px 15px; font-size: 13px; color: #333; background-color: #f9fff4; outline: none; transition: all 0.3s ease;"
+                                                onfocus="this.style.boxShadow='0 0 8px #62AB00'"
+                                                onblur="this.style.boxShadow='none'" required>
                                         </div>
                                     </div>
                                     <div class="col-lg-12">
                                         <div class="form-group">
                                             <label>Your Message</label>
-                                            <textarea id="con_message" name="con_message"
-                                                class="form-control"></textarea>
+                                            <textarea id="con_message" name="con_message" class="form-control"
+                                                style="border: 2px solid #62AB00; border-radius: 8px; padding: 10px 15px; font-size: 13px; color: #333; background-color: #f9fff4; outline: none; transition: all 0.3s ease;"
+                                                onfocus="this.style.boxShadow='0 0 8px #62AB00'"
+                                                onblur="this.style.boxShadow='none'"></textarea>
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="form-btn">
-                                            <button type="submit" value="submit" id="submit" class="btn btn-black"
+                                            <button type="submit" value="submit" id="submit" class="btn btn--primary"
                                                 name="submit">send</button>
                                         </div>
                                         <div class="form__output"></div>
@@ -365,7 +377,7 @@
         </main>
     </div>
 
-    
+
 
     <footer class="site-footer">
         <div class="container">
@@ -418,7 +430,10 @@
                     </div>
                     <div class="newsletter-form mb--30">
                         <form action="https://htmldemo.net/pustok/pustok/php/mail.php">
-                            <input type="email" class="form-control" placeholder="Enter Your Email Address Here...">
+                            <input class="mb-0 form-control" type="email" id="confirm-pwd"
+                                placeholder="Enter Your Email Address Here..."
+                                style="border: 2px solid #62AB00; border-radius: 8px; padding: 10px 15px; font-size: 13px; color: #333; background-color: #f9fff4; outline: none; transition: all 0.3s ease;"
+                                onfocus="this.style.boxShadow='0 0 8px #62AB00'" onblur="this.style.boxShadow='none'">
                             <button class="btn btn--primary w-100">Subscribe</button>
                         </form>
                     </div>
@@ -427,10 +442,12 @@
                         <ul class="social-list list-inline">
                             <li class="single-social facebook"><a href="#"><i class="ion ion-social-facebook"></i></a>
                             </li>
-                            <li class="single-social twitter"><a href="#"><i class="ion ion-social-twitter"></i></a></li>
+                            <li class="single-social twitter"><a href="#"><i class="ion ion-social-twitter"></i></a>
+                            </li>
                             <li class="single-social google"><a href="#"><i
                                         class="ion ion-social-googleplus-outline"></i></a></li>
-                            <li class="single-social youtube"><a href="#"><i class="ion ion-social-youtube"></i></a></li>
+                            <li class="single-social youtube"><a href="#"><i class="ion ion-social-youtube"></i></a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -446,7 +463,8 @@
                 </a>
                 <p class="copyright-text">Copyright © 2022 <a href="#" class="author">Pustok</a>. All Right Reserved.
                     <br>
-                    Design By Pustok</p>
+                    Design By Pustok
+                </p>
             </div>
         </div>
     </footer>
@@ -456,4 +474,5 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2D8wrWMY3XZnuHO6C31uq90JiuaFzGws"></script>
     <script src="js/custom.js"></script>
 </body>
+
 </html>
