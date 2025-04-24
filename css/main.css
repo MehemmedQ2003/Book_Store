@@ -30299,6 +30299,20 @@ textarea.form-control {
     }
 }
 
+.payment-option {
+    border: 2px solid transparent;
+    border-radius: 10px;
+    padding: 10px;
+    background: white;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.payment-option.active {
+    border-top: 4px solid #62AB00;
+    border-bottom: 4px solid #62AB00;
+}
+
 .quick-title {
     margin-bottom: 40px;
     line-height: 1.35;
