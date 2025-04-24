@@ -1,17 +1,14 @@
 <!DOCTYPE html>
 <html lang="zxx">
-
-
-<!-- Mirrored from htmldemo.net/pustok/pustok/order-complete.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 05 Apr 2025 07:52:39 GMT -->
 <head>
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Pustok - Book Store</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- Use Minified Plugins Version For Fast Page Load -->
 	<link rel="stylesheet" type="text/css" media="screen" href="css/plugins.css" />
 	<link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
 	<link rel="shortcut icon" type="image/x-icon" href="image/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 
 <body>
@@ -217,7 +214,6 @@
                     </div>
                 </div>
             </aside>
-            <!--Off Canvas Navigation End-->
         </div>
 
         <div class="sticky-init fixed-header common-sticky">
@@ -277,70 +273,99 @@
 			</div>
 		</section>
 
-		<!-- order complete Page Start -->
+		
 		<section class="order-complete inner-page-sec-padding-bottom">
 			<div class="container">
 				<div class="row">
-					<div class="col-12">
-						<div class="order-complete-message text-center">
-							<h1>Thank you !</h1>
+                    <div class="col-lg-6 col-md-12 col-sm-12 my-4">
+						<div class="order-complete-message">
+							<h1><i class="fa-regular fa-circle-check"></i> Thank you Muhammad!</h1>
 							<p>Your order has been received.</p>
 						</div>
-						<ul class="order-details-list">
-							<li>Order Number: <strong>3053</strong></li>
-							<li>Date: <strong>January 24, 2019</strong></li>
-							<li>Total: <strong>$117.00</strong></li>
-							<li>Payment Method: <strong>Cash on Delivery</strong></li>
-						</ul>
-						<p>Pay with cash upon delivery.</p>
-						<h3 class="order-table-title">Order Details</h3>
-						<div class="table-responsive">
+						<div class="table-responsive mt-5">
 							<table class="table order-details-table">
-								<thead>
-									<tr>
-										<th>Product</th>
-										<th>Total</th>
-									</tr>
-								</thead>
 								<tbody>
 									<tr>
-										<td><a href="single-product.html">Vans Off The Wall T-Shirt In</a> <strong>× 1</strong></td>
-										<td><span>$59.00</span></td>
+										<td class="border-0 border-bottom">Order Number</td>
+										<td class="border-0 border-bottom"><span><strong>3053</strong></span></td>
 									</tr>
 									<tr>
-										<td><a href="single-product.html">Supreme Being Icon Glitch T-Shirt</a> <strong>× 1</strong></td>
-										<td><span>$58.00</span></td>
+										<td class="border-0 border-bottom">Date</td>
+										<td class="border-0 border-bottom"><span><strong>January 24, 2019</strong></span></td>
+									</tr>
+									<tr>
+										<td class="border-0 border-bottom">Payment Method</td>
+										<td class="border-0 border-bottom"><span><strong>Cash on Delivery</strong></span></td>
 									</tr>
 								</tbody>
-								<tfoot>
-									<tr>
-										<th>Subtotal:</th>
-										<td><span>$117.00</span></td>
-									</tr>
-									<tr>
-										<th>Payment Method:</th>
-										<td>Cash on Delivery</td>
-									</tr>
-									<tr>
-										<th>Total:</th>
-										<td><span>$117.00</span></td>
-									</tr>
-								</tfoot>
 							</table>
 						</div>
-					</div>
+                        <div class="continue-shopping-btn d-flex align-items-center justify-content-end mt-5">
+                            <button class="btn btn--primary">Continue Shopping</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 my-4">
+                        <h5><i class="fa-solid fa-bag-shopping"></i> Your order</h5>
+                        <div class="products">
+                            <div class="my-2 border-bottom py-3 d-flex align-items-end">
+                                <div class="d-flex align-items-center gap-2">
+                                    <img src="./image/products/product-1.jpg" width="100" alt="">
+                                    <div class="">
+                                        <h5 class="product-title">Book 1</h5>
+                                        <span class="product-price d-block mt-2">Color: <b>red</b></span>
+                                        <span class="d-block mt-2 text-center p-0"><b>£ 20.00</b></span>
+                                    </div>
+                                </div>
+                                <div class="ms-auto d-flex ">
+                                    <h6 class="d-block border mt-2 text-center px-1"><b>x 1</b></h6>
+                                </div>
+                                <div class="ms-auto d-flex ">
+                                    <h6 class="product-price"><b>£ 20.00</b></h6>
+                                </div>
+                            </div>
+                            <div class="my-2 border-bottom py-3 d-flex align-items-end">
+                                <div class="d-flex align-items-center gap-2">
+                                    <img src="./image/products/product-1.jpg" width="100" alt="">
+                                    <div class="">
+                                        <h5 class="product-title">Book 1</h5>
+                                        <span class="product-price d-block mt-2">Color: <b>red</b></span>
+                                        <span class="d-block mt-2 text-center p-0"><b>£ 20.00</b></span>
+                                    </div>
+                                </div>
+                                <div class="ms-auto d-flex ">
+                                    <h6 class="d-block border mt-2 text-center px-1"><b>x 2</b></h6>
+                                </div>
+                                <div class="ms-auto d-flex ">
+                                    <h6 class="product-price"><b>£ 40.00</b></h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="my-2 border-bottom">
+                            <div class="my-3 d-flex justify-content-between">
+                                <h6 class="font-weight-bold">Subtotal</h6>
+                                <h6 class="font-weight-bold">£ 40.00</h6>
+                            </div>
+                            <div class="my-3 d-flex justify-content-between">
+                                <h6 class="font-weight-bold">Shipping</h6>
+                                <h6 class="font-weight-bold">£ 5.00</h6>
+                            </div>
+                        </div>
+                        <div class="my-2">
+                            <div class="my-3 d-flex justify-content-between">
+                                <h6 class="font-weight-bold">Tax</h6>
+                                <h6 class="font-weight-bold">£ 45.00</h6>
+                            </div>
+                            <div class="my-3 d-flex justify-content-between">
+                                <h4 class="font-weight-bold">Total</h4>
+                                <h4 class="font-weight-bold">£ 45.00</h4>
+                            </div>
+                        </div>
+                    </div>
 				</div>
 			</div>
 		</section>
-		<!-- order complete Page End -->
 	</div>
-	<!--=================================
-  Brands Slider
-===================================== -->
 	
-	<!--=================================
-    Footer Area
-===================================== -->
 	<footer class="site-footer">
 		<div class="container">
 			<div class="row justify-content-between  section-padding">
@@ -425,12 +450,9 @@
 			</div>
 		</div>
 	</footer>
-	<!-- Use Minified Plugins Version For Fast Page Load -->
+	
 	<script src="js/plugins.js"></script>
 	<script src="js/ajax-mail.js"></script>
 	<script src="js/custom.js"></script>
 </body>
-
-
-<!-- Mirrored from htmldemo.net/pustok/pustok/order-complete.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 05 Apr 2025 07:52:40 GMT -->
 </html>
